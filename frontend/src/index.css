@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* If you are using a separate tailwind.config.js file in v4, 
+   you need to reference it like this: */
+@config "../tailwind.config.js";
+
+body {
+  background-color: black;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: black;
+}
+
+::selection {
+  background: #10b981;
+  color: black;
+}
